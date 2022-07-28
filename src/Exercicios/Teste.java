@@ -3,23 +3,43 @@ package Exercicios;
 public class Teste {
     public static void main(String[] args) {
 
-        Veiculos c = new Carro(); //utilizando polimorfismo para instanciar um novo objeto
-        c.setNomeDoDono("José Carlos");
-        c.setModelo("Saveiro Turbo");
-        c.setCor("Azul");
-        c.setValor(16.000);
+        Vehicles c = new Car("Corsa Hatch", "Azul", 16000.00); //utilizando polimorfismo para instanciar um novo objeto
+        c.setTurbo(true);
 
+        Motorcycle m = new Motorcycle("CG", "PRATA", 8000.00);
+        m.setTurbo(false);
+
+        Owner paulo = new Owner("Paulo Silva", "422.048.098-45", "3365-9876");
+        Owner carlos = new Owner("Carlos henrique", "322.434.45-54", "3368-5748");
+
+
+
+        c.setOwner(paulo);
+        m.setOwner(carlos);
+
+        System.out.println("Dono do carro: " + c.getOwner().getName());
+        System.out.println(c.getModel());
+        System.out.println(c.getColor());
+        System.out.println(c.getValue());
+        System.out.println(c.isTurbo());
         System.out.println(c.Venda());
 
+        System.out.println("----------------------------------------");
+
+        System.out.println("Dono da moto: " + m.getOwner().getName());
+        System.out.println(m.getModel());
+        System.out.println(m.getColor());
+        System.out.println(m.getValue());
+        System.out.println(m.isTurbo());
+        System.out.println(m.Venda());
 
 
-        Moto m = new Moto();
-        m.setNomeDoDono("Fabio Silva");
-        m.setModelo("CG");
-        m.setCor("Prata");
-        m.setValor(8.000);
 
-        System.out.println(m.Venda()); //utilizando polimorfismo com metodo da classe mae reescritos
+
+
+
+
+
 
     }
 }
