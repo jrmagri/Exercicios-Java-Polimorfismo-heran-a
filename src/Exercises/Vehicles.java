@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercises;
 
 public abstract class Vehicles {
     private Owner owner;

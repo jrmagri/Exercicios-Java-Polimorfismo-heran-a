@@ -1,4 +1,4 @@
-## Exercicios de Java utilizando os seguintes tópicos:
+## Exercises de Java utilizando os seguintes tópicos:
 ### - Orientação a objetos;
 ### - Encapsulamento;
 ### - Composição;

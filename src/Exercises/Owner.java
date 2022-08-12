@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercises;
 
 public class Owner {
 

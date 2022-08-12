@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercises;
 
 public class Bus extends Vehicles {
 
@@ -6,7 +6,7 @@ public class Bus extends Vehicles {
         super(model, color, value);
     }
 
-    String Venda(){
+    String Venda() {
         return ("Onibus a venda por: ");
 
     }

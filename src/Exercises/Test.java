@@ -1,11 +1,10 @@
-package Exercicios;
+package Exercises;
 
-public class Teste {
+public class Test {
     public static void main(String[] args) {
 
         Vehicles c = new Car("Corsa Hatch", "Azul", 16000.00); //utilizando polimorfismo para instanciar um novo objeto
         c.setTurbo(true);
-
 
 
         Motorcycle m = new Motorcycle("CG", "PRATA", 8000.00);
@@ -13,7 +12,6 @@ public class Teste {
 
         Owner paulo = new Owner("Paulo Silva", "422.048.098-45", "3365-9876");
         Owner carlos = new Owner("Carlos henrique", "322.434.45-54", "3368-5748");
-
 
 
         c.setOwner(paulo);
@@ -34,14 +32,6 @@ public class Teste {
         System.out.println(m.getValue());
         System.out.println(m.isTurbo());
         System.out.println(m.Venda());
-
-
-
-
-
-
-
-
 
 
     }
