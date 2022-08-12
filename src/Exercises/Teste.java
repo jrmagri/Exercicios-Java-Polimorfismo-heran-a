@@ -6,6 +6,8 @@ public class Teste {
         Vehicles c = new Car("Corsa Hatch", "Azul", 16000.00); //utilizando polimorfismo para instanciar um novo objeto
         c.setTurbo(true);
 
+
+
         Motorcycle m = new Motorcycle("CG", "PRATA", 8000.00);
         m.setTurbo(false);
 
@@ -24,7 +26,7 @@ public class Teste {
         System.out.println(c.isTurbo());
         System.out.println(c.Venda());
 
-        System.out.println("----------------------------------------");
+        System.out.println("---------------------------------------");
 
         System.out.println("Dono da moto: " + m.getOwner().getName());
         System.out.println(m.getModel());
@@ -32,6 +34,8 @@ public class Teste {
         System.out.println(m.getValue());
         System.out.println(m.isTurbo());
         System.out.println(m.Venda());
+
+
 
 
 
