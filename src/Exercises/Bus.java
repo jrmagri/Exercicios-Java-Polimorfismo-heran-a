@@ -10,4 +10,9 @@ public class Bus extends Vehicles {
         return ("Onibus a venda por: ");
 
     }
+
+    @Override
+    public String toString() {
+        return "Modelo: " + this.getModel() + " Cor: " + this.getColor() + " Valor: " + this.getValue();
+    }
 }
