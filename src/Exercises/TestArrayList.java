@@ -10,6 +10,10 @@ public class TestArrayList {
         Car corsa = new Car("Corsa 2006", "Azul", 8000.00);
         lista.add(corsa);
 
+        Car corolla = new Car("Corolla 2006", "Azul", 8000.00);
+        lista.add(corolla);
+
+
         Motorcycle harleyDavison = new Motorcycle("Harley Davinson 2000", "Preta", 15000.00);
         lista.add(harleyDavison);
 
@@ -17,7 +21,7 @@ public class TestArrayList {
         lista.add(onibus);
 
         for (Vehicles veiculos : lista
-             ) {
+        ) {
             System.out.println(veiculos);
         }
     }
