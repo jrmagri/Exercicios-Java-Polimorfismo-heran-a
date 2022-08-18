@@ -17,7 +17,7 @@ public class TestArrayList {
         Motorcycle harleyDavison = new Motorcycle("Harley Davinson 2000", "Preta", 15000.00);
         lista.add(harleyDavison);
 
-        Bus onibus = new Bus("Santa cruz 2018", "Branco", 58000.00);
+        Bus onibus = new Bus("Santa cruz  2019", "Branco", 58000.00);
         lista.add(onibus);
 
         for (Vehicles veiculos : lista
